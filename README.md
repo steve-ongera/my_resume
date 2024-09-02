@@ -20,7 +20,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/steve-ongera/django-resume-website">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://avatars.githubusercontent.com/u/109411930?s=400&u=43310da2de7c3c3e2dc5e7a0cbd288940435dd2c&v=4" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Django Resume Website</h3>
