@@ -87,7 +87,7 @@ Feel free to explore the website and provide feedback!
 * [![HTML5][HTML5]][HTML5-url]
 * [![CSS3][CSS3]][CSS3-url]
 * [![JavaScript][JavaScript]][JavaScript-url]
-* [![Bootstrap][Bootstrap]][Bootstrap-url]
+* <img alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
