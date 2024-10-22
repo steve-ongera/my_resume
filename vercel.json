@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
       {
-        "src": "my_resume/wsgi.py",
+        "src": "myresume/wsgi.py",
         "use": "@vercel/python",
         "config":{ "maxLambdaSize" : "15mb" , "runtime":"python3.10.7" }
       }
@@ -10,7 +10,7 @@
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "my_resume/wsgi.py"
+        "dest": "myresume/wsgi.py"
       }
     ]
    
