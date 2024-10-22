@@ -1,0 +1,21 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "my_resume/wsgi.py",
+        "use": "@vercel/python",
+        "config":{ "maxLambdaSize" : "15mb" , "runtime":"python3.10.7" }
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "my_resume/wsgi.py"
+      }
+    ],
+    "env": {
+      "DJANGO_SETTINGS_MODULE": "your_project_name.settings",
+      "DATABASE_URL": "your_database_url"  
+    }
+  }
+  
