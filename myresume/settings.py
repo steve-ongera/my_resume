@@ -114,12 +114,13 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 # This is where you tell Django where your static files are located during development
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
+#STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 
 # This is where static files will be collected during deployment
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+#STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
-#STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
+STATICFILES_DIRS = os.path.join(BASE_DIR, 'static'),
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 MEDIA_URL = "media/"
 MEDIA_ROOT = BASE_DIR / 'media'
