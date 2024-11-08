@@ -1,25 +1,10 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
-<a id="readme-top"></a>
-<!--
-*** Thanks for checking out the README for my Django resume website. If you have any suggestions
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
+# Django Resume Website
 
-<!-- PROJECT SHIELDS -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+![Contributors][contributors-shield] ![Forks][forks-shield] ![Stargazers][stars-shield] ![Issues][issues-shield] ![MIT License][license-shield] ![LinkedIn][linkedin-shield]
 
-<!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/steve-ongera/django-resume-website">
+  <a href="https://github.com/steve-ongera/my_resume">
     <img src="https://avatars.githubusercontent.com/u/109411930?s=400&u=43310da2de7c3c3e2dc5e7a0cbd288940435dd2c&v=4" alt="Logo" width="80" height="80">
   </a>
 
@@ -28,115 +13,154 @@
   <p align="center">
     A personal resume website built with Django showcasing my full-stack development skills.
     <br />
-    <a href="https://github.com/steve-ongera/django-resume-website"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/steve-ongera/my_resume"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/steve-ongera/django-resume-website">View Demo</a>
+    <a href="https://my-resume-c4o8.onrender.com/">View Demo</a>
     ·
-    <a href="https://github.com/steve-ongera/django-resume-website/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://github.com/steve-ongera/my_resume/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
-    <a href="https://github.com/steve-ongera/django-resume-website/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/steve-ongera/my_resume/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
+## Table of Contents
 
-<!-- ABOUT THE PROJECT -->
+1. [About the Project](#about-the-project)
+   - [Built With](#built-with)
+2. [Getting Started](#getting-started)
+   - [Prerequisites](#prerequisites)
+   - [Installation](#installation)
+3. [Usage](#usage)
+4. [Roadmap](#roadmap)
+5. [Contributing](#contributing)
+6. [License](#license)
+7. [Contact](#contact)
+8. [Acknowledgments](#acknowledgments)
+
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 Welcome to my Django resume website. This project is designed to showcase my skills and experience as a full-stack developer. It features a clean, professional layout with various sections to highlight my work and qualifications.
 
 Here's why you should check it out:
-* It demonstrates my ability to build and deploy a Django application.
-* It includes a showcase of my full-stack development skills, from front-end design to back-end functionality.
-* It helps me practice and present my expertise in web development.
+
+- It demonstrates my ability to build and deploy a Django application.
+- It includes a showcase of my full-stack development skills, from front-end design to back-end functionality.
+- It helps me practice and present my expertise in web development.
 
 Feel free to explore the website and provide feedback!
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ### Built With
 
-* [![Django][Django]][Django-url]
-* [![HTML5][HTML5]][HTML5-url]
-* [![CSS3][CSS3]][CSS3-url]
-* [![JavaScript][JavaScript]][JavaScript-url]
-* <img alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
+- Django
+- CSS
+- JavaScript
+- React
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
 ## Getting Started
 
 This section explains how to set up and run the Django resume website locally.
 
 ### Prerequisites
 
-* Python 3.8 or higher
-* pip (Python package installer)
+- Python 3.8 or higher
+- pip (Python package installer)
 
 ### Installation
 
-1. Clone the repository
+1. Clone the repository:
+
    ```sh
    git clone https://github.com/steve-ongera/my_resume.git
+   ```
 
+2. Navigate to the project directory:
 
+   ```sh
+   cd my_resume
+   ```
 
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+3. Create and activate a virtual environment:
+
+   ```sh
+   python -m venv env
+   source env/bin/activate
+   ```
+
+4. Install the required dependencies:
+
+   ```sh
+   pip install -r requirements.txt
+   ```
+
+5. Run the Django development server:
+
+   ```sh
+   python manage.py runserver
+   ```
+
+6. Open your web browser and visit `http://localhost:8000` to view the Django resume website.
+
+## Usage
+
+The Django resume website consists of the following main sections:
+
+1. **Home**: Provides a brief introduction and overview of your background and skills.
+2. **About**: Showcases your professional experience, education, and key qualifications.
+3. **Portfolio**: Displays your completed projects and their descriptions.
+4. **Contact**: Includes a contact form for visitors to reach out to you.
+
+You can customize the content, design, and functionality of each section to match your personal brand and preferences.
+
+## Roadmap
+
+- [ ] Implement a content management system (CMS) to easily update the website content.
+- [ ] Add a blog section to share technical articles and tutorials.
+- [ ] Integrate a project management tool to showcase your workflow and collaboration skills.
+- [ ] Implement user authentication and a dashboard for managing resume updates.
+- [ ] Optimize the website for better performance and search engine visibility.
+
+See the [open issues](https://github.com/steve-ongera/my_resume/issues) for a full list of proposed features (and known issues).
+
+## Contributing
+
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+## Contact
+
+Your Name - [LinkedIn](https://linkedin.com/in/steve-ongera)
+
+Project Link: [https://github.com/steve-ongera/my_resume](https://github.com/steve-ongera/my_resume)
+
+## Acknowledgments
+
+- [Best README Template](https://github.com/othneildrew/Best-README-Template)
+- [Shields.io](https://shields.io)
+- [Img Shields](https://img.shields.io)
+- [Choose an Open Source License](https://choosealicense.com)
+- [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
+- [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
+- [Malven's Grid Cheatsheet](https://grid.malven.co/)
+- [Img Shields](https://img.shields.io/)
+- [GitHub Pages](https://pages.github.com)
+- [Font Awesome](https://fontawesome.com)
+
+[contributors-shield]: https://img.shields.io/github/contributors/steve-ongera/my_resume.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/steve-ongera/my_resume.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/steve-ongera/my_resume.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/steve-ongera/my_resume.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/steve-ongera/my_resume.svg?style=for-the-badge
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
