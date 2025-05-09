@@ -11,3 +11,10 @@ urlpatterns = [
 
 urlpatterns += static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT)
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+
+
+
+from django.conf.urls import handler404, handler500
+
+handler404 = 'steve.views.custom_page_not_found'
+handler500 = 'steve.views.custom_server_error'
